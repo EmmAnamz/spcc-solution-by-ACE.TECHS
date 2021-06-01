@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+main{
+    width: 80%;
+    height: auto;
+    /* border: 2px solid red; */
+    margin: 25vh auto 10vh auto;
+}
+.mainholder{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.textholder{
+    height: auto;
+    background-color: hsl(244, 38%, 16%);
+    width: 400px;
+    height: auto;
+    color: rgb(255, 255, 255);
+    padding: 50px 20px 20px 20px;
+}
+.headtext{
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family: arial;
+}
+.headtext span{
+    color: purple;
+}
+.middletext{
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 30px;
+}
+.bottomtexts{
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bt{
+    padding: 2px 20px;
+}
+.bthead{
+    font-weight: 700;
+    font-size: 24px;
+}
+.btsmall{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+.imgholder{
+    background-image: url(https://postimg.cc/14WYDP4D);
+    width: 400px;
+    height: 400px;
+}
+.purplecolor{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(37, 7, 58, 0.726);
+}
